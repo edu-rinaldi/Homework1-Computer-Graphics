@@ -1,5 +1,3 @@
-# Homework 1 Computer Graphics - @Sapienza 2019/2020
-
 # Yocto/Grade: Tiny Color Grading Utilities
 
 Pubblicato il 27/02/20.  
