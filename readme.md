@@ -3,7 +3,7 @@
 # Yocto/Grade: Tiny Color Grading Utilities
 
 Pubblicato il 27/02/20.  
-Consegna entro il 12/03/17.
+Consegna entro il 12/03/20.
 
 Questo homework ha lo scopo principale di abituarci all'utilizzo degli strumenti
 di programmazione richiesti dal corso. In particolare, in questo homework 
@@ -100,4 +100,5 @@ consiglia di cercare su [ShaderToy](https://www.shadertoy.com) o
 # Filtro implementato da me
 
 Il filtro che ho scelto di implementare per questo homework è in stile "Low poly".
-Trovate il codice in `yocto_grade.cpp`
+Trovate il codice in `yocto_grade.cpp` e un esempio di seguito:
+![lowpoly](https://github.com/edu-rinaldi/Homework1-Computer-Graphics/blob/master/out/my_filter.jpg)
