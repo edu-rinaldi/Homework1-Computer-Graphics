@@ -1,0 +1,1925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1DF0DFA92B384C698FF39848 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4CCA7CBF815B4DC0BB7D13B0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				BBC3B2B351534101B0CF72D6 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		D9B7CFF724F0408E83DD907B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D3BFA1DE74504B8BA1350997 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				36B87478E847409AA64A855B /* CMake Rules */,
+			);
+			dependencies = (
+				E4E17B7DD96D4B82835E4F48 /* PBXTargetDependency */,
+				2B7E6DEBD3B54AB487C63B41 /* PBXTargetDependency */,
+				65F28833F6A84DFB9F313ED7 /* PBXTargetDependency */,
+				879457D0CFEC4623B34EC8F4 /* PBXTargetDependency */,
+				95BE112D09284BBE89BA17F2 /* PBXTargetDependency */,
+				4A2E90E2CABB4B54B9194039 /* PBXTargetDependency */,
+				00AB2E51E0F140D9BE9014FA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		024455CE9D1A413CBF29366A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_image.cpp */ = {isa = PBXBuildFile; fileRef = 0977094C0E5147BA874F27A9 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_image.cpp */; };
+		0545159FE0C3458D8C70ABC6 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = FFE1748DC310488A9BDC97F8 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/osmesa_context.c */; };
+		0A9B982338F34556BD823DD3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_sceneio.h */ = {isa = PBXBuildFile; fileRef = 0F5A3758362E4D2E9D5717C5 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_sceneio.h */; };
+		17E0F9703B384E2487606FD5 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 452A60F565CE4043B8ACCAD0 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/CMakeLists.txt */; };
+		1B2B885B85AD46278AFB62C6 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = F899D10B4422401A9561195A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include/GLFW/glfw3.h */; };
+		212226DC51F6415C92F41B1A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_ply.h */ = {isa = PBXBuildFile; fileRef = ACF16339C1694662A19B615A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_ply.h */; };
+		23709C372968431B900CEB71 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image_resize.h */ = {isa = PBXBuildFile; fileRef = 8098A7E82163403E8D3F6CEB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image_resize.h */; };
+		294C5DB81369447AB1438AB9 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/yocto_grade.cpp */ = {isa = PBXBuildFile; fileRef = 4668B5CA57C54E73B727670F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/yocto_grade.cpp */; };
+		2D2DEBFCC9B04C7D9594F743 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_shape.cpp */ = {isa = PBXBuildFile; fileRef = 9989B633DF58451687DFD942 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_shape.cpp */; };
+		2E5FD4A7F8F342DA8E2D82EE /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 93EB745B8B2A44CF85EA8F14 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/mappings.h */; };
+		30D66B313D5D4F03A1B29CE7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 44ACE9235E70411FB4F39FBB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/CMakeLists.txt */; };
+		36265DD37B33486DB8B33255 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_image.h */ = {isa = PBXBuildFile; fileRef = AB3C964C3DE34E00AB1FF6E2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_image.h */; };
+		3CDFB55B920544F3AFA1AA03 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = AAD476224D11416FA302BD59 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/internal.h */; };
+		40241C1A0AB04ADA970BEAE3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/yocto_grade.h */ = {isa = PBXBuildFile; fileRef = B2BFA76BFC634D5FA43986F2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/yocto_grade.h */; };
+		4034ACBE5F75460AB9D3CC22 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image_write.h */ = {isa = PBXBuildFile; fileRef = B78DF42F7E1C4BF9A7748B95 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image_write.h */; };
+		48B75AECE97342D78C230020 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimggrade/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9F6A705EF188408F8DAC5827 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimggrade/CMakeLists.txt */; };
+		4D3B914A268046489AE90531 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/filesystem.hpp */ = {isa = PBXBuildFile; fileRef = 79D928E2A65B4762A8C66DF7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/filesystem.hpp */; };
+		4D50A42E45F7430CBE1C8774 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 3CC93829C4EB413DAD596AF4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_window.m */; };
+		5C3751CCB5D74E8E9FAAEF6E /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimgigrades/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D5CC2FD36A994A9BB6094F8E /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimgigrades/CMakeLists.txt */; };
+		5CAF109176744970B1246F3B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 0B8FDD04FBFB481296092B75 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src/glfw_config.h */; };
+		5DE45A53EC4C443FB3FAB8FD /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_trace.cpp */ = {isa = PBXBuildFile; fileRef = C846CA9973AC4FC3B7C1EDC4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_trace.cpp */; };
+		5F09CACA99D84F6C9B16D7DD /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 86960DEAAB5642D19560EFA2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		636161895EA24E379CD541BB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 1430E48E4C1F46FD8D6D1EBE /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/posix_thread.c */; };
+		64509F81AAE04070A6FAA20A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_widgets.cpp */ = {isa = PBXBuildFile; fileRef = DAB8B30024DE4D0C988CC404 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_widgets.cpp */; };
+		698C7630027A488F8B59D508 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui.cpp */ = {isa = PBXBuildFile; fileRef = EB71CEF543A74998B1A2139F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui.cpp */; };
+		73854676AA5D451C91A3A7F3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = FF54FCEDF76C46398224DBBB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/egl_context.c */; };
+		779F3DA1405A4A129CB8F29C /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/tinyexr.h */ = {isa = PBXBuildFile; fileRef = 781D9F7708BD425D9FC9EA58 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/tinyexr.h */; };
+		7C28E4E5818F43C1B9D3CC47 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 1D1E1459101146F2B845B88F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_time.c */; };
+		7F09809897F340E2913932CF /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 3049211177014E05AAEC80C3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_init.m */; };
+		81C866FAB3E34F329A2CDD90 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf.cpp */ = {isa = PBXBuildFile; fileRef = 05C7737EF9BA45029A22ADF3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf.cpp */; };
+		887DAC36310E46EFBE24FE7E /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_commonio.h */ = {isa = PBXBuildFile; fileRef = E6FF623CB344498786B89278 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_commonio.h */; };
+		8928ABDADF4748AF8D770F13 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_sceneio.cpp */ = {isa = PBXBuildFile; fileRef = 747EE953FD0C4AA9AB8F01AB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_sceneio.cpp */; };
+		8C25568F7F0247AAB42CC3C7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 60D894CA999048F0AF5EF47F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		912EC1A4E38D4A4AB14E0D24 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = C38164B4E7974B96BA1D4432 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_platform.h */; };
+		9151AF6302BA4C169F617763 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 4C8502A5195348B4AD7110D7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_monitor.m */; };
+		937F616F6A944CBB93934E32 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/tinyexr.cpp */ = {isa = PBXBuildFile; fileRef = 10EBB80EC72A45868DF0D7AE /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/tinyexr.cpp */; };
+		94479EE75F164CE9BE8D917F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/yocto_gui.cpp */ = {isa = PBXBuildFile; fileRef = 38CC45C669434C59820BCF19 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/yocto_gui.cpp */; };
+		963C6F992A814C4AABEB01AA /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_impl_opengl3.cpp */ = {isa = PBXBuildFile; fileRef = 8BDA31C9226F48D696E7644D /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_impl_opengl3.cpp */; };
+		98BD572E7E6A4748821A6D32 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_math.h */ = {isa = PBXBuildFile; fileRef = D9DC36D696064A45957EA829 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_math.h */; };
+		99225BA4023E4E52B1537F29 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 848BD3025B014893A76D967F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/CMakeLists.txt */; };
+		9936CE4548464EF78F69AB1E /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 719DE4CAA8434C7184EDEF48 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_joystick.h */; };
+		A223A2A8FB3B42B993D6A0E9 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 58397520B2794F2CA27D4279 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		A8B2F5BF68AA4887A7070204 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_impl_glfw.cpp */ = {isa = PBXBuildFile; fileRef = 1CCC3A18C1604746A69A9126 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_impl_glfw.cpp */; };
+		A93C3686A6404264B959DE5B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 759A7C6ACE6748D894BFACE3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		AAA47A2901324FA0AF40D193 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimgigrades/yimgigrades.cpp */ = {isa = PBXBuildFile; fileRef = DC40E776E20741548FA8B59B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimgigrades/yimgigrades.cpp */; };
+		AE1855A11EF54791ACF8E31B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 5AA50E0434C648DD935BEC56 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/nsgl_context.m */; };
+		AEFBB5D3631D43BEA2B9A01B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_shape.h */ = {isa = PBXBuildFile; fileRef = B3949BD9DF644460BC23F392 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_shape.h */; };
+		B1946F06169A4BBABBAC2484 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_draw.cpp */ = {isa = PBXBuildFile; fileRef = 2B8F92B880E5446181FF3F0F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_draw.cpp */; };
+		B889859E0CED4A1287C5626D /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 26701558AE234AAB87A9DDFE /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include/GLFW/glfw3native.h */; };
+		B9313B4CE15F4A7BBA8E5974 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 85CB07A23246438E8D6080C7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		BBC5773721354C5FA50BC1E3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = D38E97A85B6F47D1AC91AF8B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/nsgl_context.h */; };
+		BF7AFAC5C7A942D6B619D15D /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_obj.h */ = {isa = PBXBuildFile; fileRef = 375203E5ABF741B084AC9269 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_obj.h */; };
+		C3D43DDE1A68487082886FA0 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image.h */ = {isa = PBXBuildFile; fileRef = 55232D2DCFDC4C91BBC9532A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image.h */; };
+		C40391E36A47408F8B1A4496 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = A111782325544C18BB603A92 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		C77C7BB369774558AF31DF70 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/yocto_gui.h */ = {isa = PBXBuildFile; fileRef = 981B0CA84D644DD9B4E0A61D /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/yocto_gui.h */; };
+		CB9D95F063DF402E99186FE1 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 80A3C7EC314C4D27BA2BD8C2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/CMakeLists.txt */; };
+		CC007F68D8C34FB98E1156B1 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = 2D2D646446C54B588933C9ED /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/egl_context.h */; };
+		CC95957F54434B84AFB1D2D4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf_write.h */ = {isa = PBXBuildFile; fileRef = 4CD4FFDF71BB441C96A7A099 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf_write.h */; };
+		D475309801EC4FB48B757126 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_pbrt.h */ = {isa = PBXBuildFile; fileRef = 6BA204224ED44ACDB2F37625 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_pbrt.h */; };
+		D4DE550F76684005BFB5F7F3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 88B478CC2E9B43E5A1DF1A2C /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_joystick.m */; };
+		D5C2818ACC264D41AB863182 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = A4A8FCCECFAD4C0F8DDD88E3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/posix_thread.h */; };
+		DC6F1E4120384392B0165FCA /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glad/glad.c */ = {isa = PBXBuildFile; fileRef = 868247515CA74AA6A4E08351 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glad/glad.c */; };
+		DEABBA50311346B68506E6D4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf.h */ = {isa = PBXBuildFile; fileRef = A320CE30F513417B9ABA0518 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf.h */; };
+		E0A2A5DDFC934BC6923996D1 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/json.hpp */ = {isa = PBXBuildFile; fileRef = 71E4840C899842DCBCD00488 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/json.hpp */; };
+		E4CD0F6103C04B39A34F2125 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_common.h */ = {isa = PBXBuildFile; fileRef = 249ED2E817D64C86B1B53468 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_common.h */; };
+		E738FACB3ED946478D028E11 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image.cpp */ = {isa = PBXBuildFile; fileRef = C3802870E38F4E42B14F7FC4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image.cpp */; };
+		EF8F228E3F604763A70E73A1 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimggrade/yimggrade.cpp */ = {isa = PBXBuildFile; fileRef = 998C2BD2CF5B41A4A7B823FA /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimggrade/yimggrade.cpp */; };
+		FA57A97558F04AE9A2E955A2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = CF79325D7FD345B394DD4BF9 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/osmesa_context.h */; };
+		FBC6980331204FA6AECD80B2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_trace.h */ = {isa = PBXBuildFile; fileRef = 2ED37C8FCE4B439A9AD0FB17 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_trace.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		07C6A15D70F940768A8ED352 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		2FB1ED634F2C47A38E0B5BD9 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		4DB778325B9C49359C258862 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		BB2F37D1746A43E29B9C225B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0858459FEC15474DA451DA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E51FC0BC265D461689248F93;
+			remoteInfo = yocto_gui;
+		};
+		0F4E18DCE8C64B88A4FB53E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF0DFA92B384C698FF39848;
+			remoteInfo = ZERO_CHECK;
+		};
+		1CD189BF5D7D4E0784E36480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689EDD6EFFFD4F22A615FBE8;
+			remoteInfo = yocto;
+		};
+		294CB5593307483892477067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689EDD6EFFFD4F22A615FBE8;
+			remoteInfo = yocto;
+		};
+		2BD40723DAFD46EC9DE4BACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF0DFA92B384C698FF39848;
+			remoteInfo = ZERO_CHECK;
+		};
+		3435360A46484F08B0949509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689EDD6EFFFD4F22A615FBE8;
+			remoteInfo = yocto;
+		};
+		3952178A49D442EF87211257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8D2F7269B7F48E282E51ECF;
+			remoteInfo = glfw;
+		};
+		4876CD6245A94D5AB9362A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33503F6EA39462FB976D174;
+			remoteInfo = yimggrade;
+		};
+		58D03DDFA4B34192B1D9F182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8D2F7269B7F48E282E51ECF;
+			remoteInfo = glfw;
+		};
+		5CAECC76A7134F0E97312971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF0DFA92B384C698FF39848;
+			remoteInfo = ZERO_CHECK;
+		};
+		6485D530F2664871BD99C6CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B22763398504FF9BA5D385D;
+			remoteInfo = yocto_grade;
+		};
+		6FDADCAC70754C57AF03320E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF0DFA92B384C698FF39848;
+			remoteInfo = ZERO_CHECK;
+		};
+		802520B8CBD9488E9F0E8962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8D2F7269B7F48E282E51ECF;
+			remoteInfo = glfw;
+		};
+		89D81DD4C7944505B421D9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C1F715978B4FBDBCDC46F1;
+			remoteInfo = yimgigrades;
+		};
+		9581F559194845E7AE08F7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B22763398504FF9BA5D385D;
+			remoteInfo = yocto_grade;
+		};
+		9A983808D1114CEC835920B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B22763398504FF9BA5D385D;
+			remoteInfo = yocto_grade;
+		};
+		B520695CE03140A19EED0C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689EDD6EFFFD4F22A615FBE8;
+			remoteInfo = yocto;
+		};
+		C74C517CC11746959B738C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF0DFA92B384C698FF39848;
+			remoteInfo = ZERO_CHECK;
+		};
+		CE4435443F5E4324B3C05C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF0DFA92B384C698FF39848;
+			remoteInfo = ZERO_CHECK;
+		};
+		DE21F8A71EB44CA49298B9A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF0DFA92B384C698FF39848;
+			remoteInfo = ZERO_CHECK;
+		};
+		E91F4E82457E488584B44996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E51FC0BC265D461689248F93;
+			remoteInfo = yocto_gui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C7737EF9BA45029A22ADF3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cgltf.cpp; path = libs/yocto/ext/cgltf.cpp; sourceTree = SOURCE_ROOT; };
+		0977094C0E5147BA874F27A9 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yocto_image.cpp; path = libs/yocto/yocto_image.cpp; sourceTree = SOURCE_ROOT; };
+		0B8FDD04FBFB481296092B75 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = build/libs/yocto_gui/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		0F5A3758362E4D2E9D5717C5 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_sceneio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_sceneio.h; path = libs/yocto/yocto_sceneio.h; sourceTree = SOURCE_ROOT; };
+		10EBB80EC72A45868DF0D7AE /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/tinyexr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyexr.cpp; path = libs/yocto/ext/tinyexr.cpp; sourceTree = SOURCE_ROOT; };
+		1430E48E4C1F46FD8D6D1EBE /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = libs/yocto_gui/ext/glfw/src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		1CCC3A18C1604746A69A9126 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_impl_glfw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_glfw.cpp; path = libs/yocto_gui/ext/imgui/imgui_impl_glfw.cpp; sourceTree = SOURCE_ROOT; };
+		1D1E1459101146F2B845B88F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = libs/yocto_gui/ext/glfw/src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		249ED2E817D64C86B1B53468 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_common.h; path = libs/yocto/yocto_common.h; sourceTree = SOURCE_ROOT; };
+		25CC2A5AD5994E889A8456FA /* yocto_grade */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libyocto_grade.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		26701558AE234AAB87A9DDFE /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = libs/yocto_gui/ext/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		27920BE9762349C79BA0C6A8 /* yocto_gui */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libyocto_gui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8F92B880E5446181FF3F0F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_draw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_draw.cpp; path = libs/yocto_gui/ext/imgui/imgui_draw.cpp; sourceTree = SOURCE_ROOT; };
+		2D2D646446C54B588933C9ED /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = libs/yocto_gui/ext/glfw/src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		2ED37C8FCE4B439A9AD0FB17 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_trace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_trace.h; path = libs/yocto/yocto_trace.h; sourceTree = SOURCE_ROOT; };
+		3049211177014E05AAEC80C3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = libs/yocto_gui/ext/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		375203E5ABF741B084AC9269 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_obj.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_obj.h; path = libs/yocto/yocto_obj.h; sourceTree = SOURCE_ROOT; };
+		38CC45C669434C59820BCF19 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/yocto_gui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yocto_gui.cpp; path = libs/yocto_gui/yocto_gui.cpp; sourceTree = SOURCE_ROOT; };
+		3CC93829C4EB413DAD596AF4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = libs/yocto_gui/ext/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		437ADA1605D348D4B802F501 /* yimgigrades */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = yimgigrades; sourceTree = BUILT_PRODUCTS_DIR; };
+		439A6C4826E04ABB8CD772C1 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		44ACE9235E70411FB4F39FBB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = libs/yocto_gui/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		452A60F565CE4043B8ACCAD0 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = libs/yocto_grade/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4668B5CA57C54E73B727670F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/yocto_grade.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yocto_grade.cpp; path = libs/yocto_grade/yocto_grade.cpp; sourceTree = SOURCE_ROOT; };
+		4A96A71084EB4DAC88F1649D /* yimggrade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = yimggrade; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8502A5195348B4AD7110D7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = libs/yocto_gui/ext/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		4CD4FFDF71BB441C96A7A099 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf_write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cgltf_write.h; path = libs/yocto/ext/cgltf_write.h; sourceTree = SOURCE_ROOT; };
+		55232D2DCFDC4C91BBC9532A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = libs/yocto/ext/stb_image.h; sourceTree = SOURCE_ROOT; };
+		58397520B2794F2CA27D4279 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = libs/yocto_gui/ext/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
+		5AA50E0434C648DD935BEC56 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = libs/yocto_gui/ext/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		60D894CA999048F0AF5EF47F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = libs/yocto_gui/ext/glfw/src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		6BA204224ED44ACDB2F37625 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_pbrt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_pbrt.h; path = libs/yocto/yocto_pbrt.h; sourceTree = SOURCE_ROOT; };
+		719DE4CAA8434C7184EDEF48 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = libs/yocto_gui/ext/glfw/src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		71E4840C899842DCBCD00488 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/json.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = json.hpp; path = libs/yocto/ext/json.hpp; sourceTree = SOURCE_ROOT; };
+		747EE953FD0C4AA9AB8F01AB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_sceneio.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yocto_sceneio.cpp; path = libs/yocto/yocto_sceneio.cpp; sourceTree = SOURCE_ROOT; };
+		759A7C6ACE6748D894BFACE3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = libs/yocto_gui/ext/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
+		781D9F7708BD425D9FC9EA58 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/tinyexr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tinyexr.h; path = libs/yocto/ext/tinyexr.h; sourceTree = SOURCE_ROOT; };
+		79D928E2A65B4762A8C66DF7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/filesystem.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = filesystem.hpp; path = libs/yocto/ext/filesystem.hpp; sourceTree = SOURCE_ROOT; };
+		8098A7E82163403E8D3F6CEB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image_resize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_resize.h; path = libs/yocto/ext/stb_image_resize.h; sourceTree = SOURCE_ROOT; };
+		80A3C7EC314C4D27BA2BD8C2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = libs/yocto_gui/ext/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		848BD3025B014893A76D967F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = libs/yocto/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		85CB07A23246438E8D6080C7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = libs/yocto_gui/ext/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
+		868247515CA74AA6A4E08351 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glad/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = libs/yocto_gui/ext/glad/glad.c; sourceTree = SOURCE_ROOT; };
+		86960DEAAB5642D19560EFA2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = libs/yocto_gui/ext/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
+		88B478CC2E9B43E5A1DF1A2C /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = libs/yocto_gui/ext/glfw/src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		8BDA31C9226F48D696E7644D /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_impl_opengl3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_impl_opengl3.cpp; path = libs/yocto_gui/ext/imgui/imgui_impl_opengl3.cpp; sourceTree = SOURCE_ROOT; };
+		93EB745B8B2A44CF85EA8F14 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = libs/yocto_gui/ext/glfw/src/mappings.h; sourceTree = SOURCE_ROOT; };
+		981B0CA84D644DD9B4E0A61D /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/yocto_gui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_gui.h; path = libs/yocto_gui/yocto_gui.h; sourceTree = SOURCE_ROOT; };
+		9989B633DF58451687DFD942 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_shape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yocto_shape.cpp; path = libs/yocto/yocto_shape.cpp; sourceTree = SOURCE_ROOT; };
+		998C2BD2CF5B41A4A7B823FA /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimggrade/yimggrade.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yimggrade.cpp; path = apps/yimggrade/yimggrade.cpp; sourceTree = SOURCE_ROOT; };
+		9F6A705EF188408F8DAC5827 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimggrade/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = apps/yimggrade/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A111782325544C18BB603A92 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = libs/yocto_gui/ext/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
+		A320CE30F513417B9ABA0518 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cgltf.h; path = libs/yocto/ext/cgltf.h; sourceTree = SOURCE_ROOT; };
+		A4A8FCCECFAD4C0F8DDD88E3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = libs/yocto_gui/ext/glfw/src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		AAD476224D11416FA302BD59 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = libs/yocto_gui/ext/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
+		AB3C964C3DE34E00AB1FF6E2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_image.h; path = libs/yocto/yocto_image.h; sourceTree = SOURCE_ROOT; };
+		ACF16339C1694662A19B615A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_ply.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_ply.h; path = libs/yocto/yocto_ply.h; sourceTree = SOURCE_ROOT; };
+		B2BFA76BFC634D5FA43986F2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/yocto_grade.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_grade.h; path = libs/yocto_grade/yocto_grade.h; sourceTree = SOURCE_ROOT; };
+		B3949BD9DF644460BC23F392 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_shape.h; path = libs/yocto/yocto_shape.h; sourceTree = SOURCE_ROOT; };
+		B78DF42F7E1C4BF9A7748B95 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image_write.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image_write.h; path = libs/yocto/ext/stb_image_write.h; sourceTree = SOURCE_ROOT; };
+		BB06E8FDC7BD4E07BCE0FA8A /* yocto */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libyocto.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3802870E38F4E42B14F7FC4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = libs/yocto/ext/stb_image.cpp; sourceTree = SOURCE_ROOT; };
+		C38164B4E7974B96BA1D4432 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = libs/yocto_gui/ext/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		C846CA9973AC4FC3B7C1EDC4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_trace.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yocto_trace.cpp; path = libs/yocto/yocto_trace.cpp; sourceTree = SOURCE_ROOT; };
+		CC8C69973BBD4E02ACDE5B19 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF79325D7FD345B394DD4BF9 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = libs/yocto_gui/ext/glfw/src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		D38E97A85B6F47D1AC91AF8B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = libs/yocto_gui/ext/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		D5CC2FD36A994A9BB6094F8E /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimgigrades/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = apps/yimgigrades/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D9DC36D696064A45957EA829 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_math.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_math.h; path = libs/yocto/yocto_math.h; sourceTree = SOURCE_ROOT; };
+		DAB8B30024DE4D0C988CC404 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui_widgets.cpp; path = libs/yocto_gui/ext/imgui/imgui_widgets.cpp; sourceTree = SOURCE_ROOT; };
+		DC40E776E20741548FA8B59B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimgigrades/yimgigrades.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = yimgigrades.cpp; path = apps/yimgigrades/yimgigrades.cpp; sourceTree = SOURCE_ROOT; };
+		E6FF623CB344498786B89278 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_commonio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = yocto_commonio.h; path = libs/yocto/yocto_commonio.h; sourceTree = SOURCE_ROOT; };
+		EB71CEF543A74998B1A2139F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imgui.cpp; path = libs/yocto_gui/ext/imgui/imgui.cpp; sourceTree = SOURCE_ROOT; };
+		F899D10B4422401A9561195A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = libs/yocto_gui/ext/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		FF54FCEDF76C46398224DBBB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = libs/yocto_gui/ext/glfw/src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		FFE1748DC310488A9BDC97F8 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = libs/yocto_gui/ext/glfw/src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03E5962BB053459F8FAE1112 /* yocto_grade */ = {
+			isa = PBXGroup;
+			children = (
+				7E7EE4DCA8644121AB2FCDDB /* Header Files */,
+				D1E1AE8DE29C4ABBAF6A6E84 /* Source Files */,
+				452A60F565CE4043B8ACCAD0 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/CMakeLists.txt */,
+			);
+			name = yocto_grade;
+			sourceTree = "<group>";
+		};
+		1B902709713B46AC8D53D2AF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC40E776E20741548FA8B59B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimgigrades/yimgigrades.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2E194A7C5CC04B94975B180C /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				FE122FB3E25B44F1B0874677 /* Source Files */,
+				E4EFB105FB334816A9B28B13 /* Header Files */,
+				80A3C7EC314C4D27BA2BD8C2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		2FD551121A1C4AD98B78B04E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8E82C04B410A4B9985E8FAC0 /* CMake Rules */,
+				439A6C4826E04ABB8CD772C1 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3005D1580950436A863C67C5 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				2E194A7C5CC04B94975B180C /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		3917E9A713784DCEBD73C7AF /* yocto */ = {
+			isa = PBXGroup;
+			children = (
+				733BC53E12D54DC683F5ED89 /* Header Files */,
+				C3AB7535F7114024AC92837B /* Source Files */,
+				848BD3025B014893A76D967F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/CMakeLists.txt */,
+			);
+			name = yocto;
+			sourceTree = "<group>";
+		};
+		4794D0BBFADC4F9388EF9CAE /* yimggrade */ = {
+			isa = PBXGroup;
+			children = (
+				C3EEB65E792846D5BB85FFCB /* Source Files */,
+				9F6A705EF188408F8DAC5827 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimggrade/CMakeLists.txt */,
+			);
+			name = yimggrade;
+			sourceTree = "<group>";
+		};
+		7059069B32914BBB8195F37F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				981B0CA84D644DD9B4E0A61D /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/yocto_gui.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		733BC53E12D54DC683F5ED89 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A320CE30F513417B9ABA0518 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf.h */,
+				4CD4FFDF71BB441C96A7A099 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf_write.h */,
+				79D928E2A65B4762A8C66DF7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/filesystem.hpp */,
+				71E4840C899842DCBCD00488 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/json.hpp */,
+				55232D2DCFDC4C91BBC9532A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image.h */,
+				8098A7E82163403E8D3F6CEB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image_resize.h */,
+				B78DF42F7E1C4BF9A7748B95 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image_write.h */,
+				781D9F7708BD425D9FC9EA58 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/tinyexr.h */,
+				249ED2E817D64C86B1B53468 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_common.h */,
+				E6FF623CB344498786B89278 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_commonio.h */,
+				AB3C964C3DE34E00AB1FF6E2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_image.h */,
+				D9DC36D696064A45957EA829 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_math.h */,
+				375203E5ABF741B084AC9269 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_obj.h */,
+				6BA204224ED44ACDB2F37625 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_pbrt.h */,
+				ACF16339C1694662A19B615A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_ply.h */,
+				0F5A3758362E4D2E9D5717C5 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_sceneio.h */,
+				B3949BD9DF644460BC23F392 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_shape.h */,
+				2ED37C8FCE4B439A9AD0FB17 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_trace.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7E7EE4DCA8644121AB2FCDDB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2BFA76BFC634D5FA43986F2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/yocto_grade.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		89B14CF160894E718E9A9973 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				868247515CA74AA6A4E08351 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glad/glad.c */,
+				EB71CEF543A74998B1A2139F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui.cpp */,
+				2B8F92B880E5446181FF3F0F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_draw.cpp */,
+				1CCC3A18C1604746A69A9126 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_impl_glfw.cpp */,
+				8BDA31C9226F48D696E7644D /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_impl_opengl3.cpp */,
+				DAB8B30024DE4D0C988CC404 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_widgets.cpp */,
+				38CC45C669434C59820BCF19 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/yocto_gui.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8E82C04B410A4B9985E8FAC0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C3AB7535F7114024AC92837B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				05C7737EF9BA45029A22ADF3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf.cpp */,
+				C3802870E38F4E42B14F7FC4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image.cpp */,
+				10EBB80EC72A45868DF0D7AE /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/tinyexr.cpp */,
+				0977094C0E5147BA874F27A9 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_image.cpp */,
+				747EE953FD0C4AA9AB8F01AB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_sceneio.cpp */,
+				9989B633DF58451687DFD942 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_shape.cpp */,
+				C846CA9973AC4FC3B7C1EDC4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_trace.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C3EEB65E792846D5BB85FFCB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				998C2BD2CF5B41A4A7B823FA /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimggrade/yimggrade.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CE14F4D3C740458A95669803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC8C69973BBD4E02ACDE5B19 /* glfw */,
+				4A96A71084EB4DAC88F1649D /* yimggrade */,
+				437ADA1605D348D4B802F501 /* yimgigrades */,
+				BB06E8FDC7BD4E07BCE0FA8A /* yocto */,
+				25CC2A5AD5994E889A8456FA /* yocto_grade */,
+				27920BE9762349C79BA0C6A8 /* yocto_gui */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1E1AE8DE29C4ABBAF6A6E84 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4668B5CA57C54E73B727670F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/yocto_grade.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D806434C406646C4A090B4B6 = {
+			isa = PBXGroup;
+			children = (
+				2FD551121A1C4AD98B78B04E /* ALL_BUILD */,
+				3917E9A713784DCEBD73C7AF /* yocto */,
+				03E5962BB053459F8FAE1112 /* yocto_grade */,
+				F4E6F70F7AE54129B191536A /* yocto_gui */,
+				3005D1580950436A863C67C5 /* GLFW3 */,
+				4794D0BBFADC4F9388EF9CAE /* yimggrade */,
+				DF1D08B4500942E3A8D66F6F /* yimgigrades */,
+				CE14F4D3C740458A95669803 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF1D08B4500942E3A8D66F6F /* yimgigrades */ = {
+			isa = PBXGroup;
+			children = (
+				1B902709713B46AC8D53D2AF /* Source Files */,
+				D5CC2FD36A994A9BB6094F8E /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimgigrades/CMakeLists.txt */,
+			);
+			name = yimgigrades;
+			sourceTree = "<group>";
+		};
+		E4EFB105FB334816A9B28B13 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B8FDD04FBFB481296092B75 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src/glfw_config.h */,
+				F899D10B4422401A9561195A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include/GLFW/glfw3.h */,
+				26701558AE234AAB87A9DDFE /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include/GLFW/glfw3native.h */,
+				719DE4CAA8434C7184EDEF48 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_joystick.h */,
+				C38164B4E7974B96BA1D4432 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_platform.h */,
+				2D2D646446C54B588933C9ED /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/egl_context.h */,
+				AAD476224D11416FA302BD59 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/internal.h */,
+				93EB745B8B2A44CF85EA8F14 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/mappings.h */,
+				D38E97A85B6F47D1AC91AF8B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/nsgl_context.h */,
+				CF79325D7FD345B394DD4BF9 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/osmesa_context.h */,
+				A4A8FCCECFAD4C0F8DDD88E3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/posix_thread.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F4E6F70F7AE54129B191536A /* yocto_gui */ = {
+			isa = PBXGroup;
+			children = (
+				7059069B32914BBB8195F37F /* Header Files */,
+				89B14CF160894E718E9A9973 /* Source Files */,
+				44ACE9235E70411FB4F39FBB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/CMakeLists.txt */,
+			);
+			name = yocto_gui;
+			sourceTree = "<group>";
+		};
+		FE122FB3E25B44F1B0874677 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3049211177014E05AAEC80C3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_init.m */,
+				88B478CC2E9B43E5A1DF1A2C /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_joystick.m */,
+				4C8502A5195348B4AD7110D7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_monitor.m */,
+				1D1E1459101146F2B845B88F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_time.c */,
+				3CC93829C4EB413DAD596AF4 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_window.m */,
+				759A7C6ACE6748D894BFACE3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/context.c */,
+				FF54FCEDF76C46398224DBBB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/egl_context.c */,
+				58397520B2794F2CA27D4279 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/init.c */,
+				85CB07A23246438E8D6080C7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/input.c */,
+				86960DEAAB5642D19560EFA2 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/monitor.c */,
+				5AA50E0434C648DD935BEC56 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/nsgl_context.m */,
+				FFE1748DC310488A9BDC97F8 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/osmesa_context.c */,
+				1430E48E4C1F46FD8D6D1EBE /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/posix_thread.c */,
+				60D894CA999048F0AF5EF47F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/vulkan.c */,
+				A111782325544C18BB603A92 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689EDD6EFFFD4F22A615FBE8 /* yocto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBCEA6989B8D4138ADB19060 /* Build configuration list for PBXNativeTarget "yocto" */;
+			buildPhases = (
+				E79F9D5A8F094C1D813CBB91 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C85397171B724A2E9D3520A9 /* PBXTargetDependency */,
+			);
+			name = yocto;
+			productName = yocto;
+			productReference = BB06E8FDC7BD4E07BCE0FA8A /* yocto */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B22763398504FF9BA5D385D /* yocto_grade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3214B707354FB89B5FFE62 /* Build configuration list for PBXNativeTarget "yocto_grade" */;
+			buildPhases = (
+				705425C8364141BA9CB96DC4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68722E3612314C2B9D9C9082 /* PBXTargetDependency */,
+				ED0F0AD81BBC49B0AFBB97B8 /* PBXTargetDependency */,
+			);
+			name = yocto_grade;
+			productName = yocto_grade;
+			productReference = 25CC2A5AD5994E889A8456FA /* yocto_grade */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6C1F715978B4FBDBCDC46F1 /* yimgigrades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9E7343D1E74998810B7088 /* Build configuration list for PBXNativeTarget "yimgigrades" */;
+			buildPhases = (
+				E44B630C781E4D92BCF66C46 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52B3D6B5296486C9131BA4C /* PBXTargetDependency */,
+				C5215B706C6446A3ABE12D4A /* PBXTargetDependency */,
+				DA4AE06898F44775B367439B /* PBXTargetDependency */,
+				C0C6764FE17E49DC8E13F0F9 /* PBXTargetDependency */,
+				41D3D13A51534893A232D53C /* PBXTargetDependency */,
+			);
+			name = yimgigrades;
+			productName = yimgigrades;
+			productReference = 437ADA1605D348D4B802F501 /* yimgigrades */;
+			productType = "com.apple.product-type.tool";
+		};
+		E33503F6EA39462FB976D174 /* yimggrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9710E1A2D4564314AA023E9E /* Build configuration list for PBXNativeTarget "yimggrade" */;
+			buildPhases = (
+				F5FDB1F9AF4F4FC3BF930596 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3B5996D522B44FDAC078CAF /* PBXTargetDependency */,
+				268AD99ADC6545AA9CCD1ADA /* PBXTargetDependency */,
+				D7B8EF2BEEA641B1B022FCE5 /* PBXTargetDependency */,
+			);
+			name = yimggrade;
+			productName = yimggrade;
+			productReference = 4A96A71084EB4DAC88F1649D /* yimggrade */;
+			productType = "com.apple.product-type.tool";
+		};
+		E51FC0BC265D461689248F93 /* yocto_gui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3611F35B246979AFD9935 /* Build configuration list for PBXNativeTarget "yocto_gui" */;
+			buildPhases = (
+				AA58AA0E7B204D32AA4F6EDC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE41A4EB13EC4191B8422273 /* PBXTargetDependency */,
+				38F489B2CC384B149A089EB5 /* PBXTargetDependency */,
+			);
+			name = yocto_gui;
+			productName = yocto_gui;
+			productReference = 27920BE9762349C79BA0C6A8 /* yocto_gui */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E8D2F7269B7F48E282E51ECF /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336C3C9B91484163BE909FAC /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				1E15D8AEA4CE429A96E3AD95 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C1493B38734C24950CCD25 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = CC8C69973BBD4E02ACDE5B19 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8462C1DC62B40A1A40FFFC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 74F8270CEE3846C1AD9D0CF0 /* Build configuration list for PBXProject "yocto_grade" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2FB1ED634F2C47A38E0B5BD9 /* Debug */,
+				07C6A15D70F940768A8ED352 /* Release */,
+				4DB778325B9C49359C258862 /* MinSizeRel */,
+				BB2F37D1746A43E29B9C225B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D806434C406646C4A090B4B6;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				D9B7CFF724F0408E83DD907B /* ALL_BUILD */,
+				1DF0DFA92B384C698FF39848 /* ZERO_CHECK */,
+				E8D2F7269B7F48E282E51ECF /* glfw */,
+				E33503F6EA39462FB976D174 /* yimggrade */,
+				B6C1F715978B4FBDBCDC46F1 /* yimgigrades */,
+				689EDD6EFFFD4F22A615FBE8 /* yocto */,
+				6B22763398504FF9BA5D385D /* yocto_grade */,
+				E51FC0BC265D461689248F93 /* yocto_gui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36B87478E847409AA64A855B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/eduardo/Documents/Google\\ Drive/Università/Informatica\\ Triennale/Terzo\\ Anno/Computer\\ Graphics/Primo\\ Homework/build -f /Users/eduardo/Documents/Google\\ Drive/Università/Informatica\\ Triennale/Terzo\\ Anno/Computer\\ Graphics/Primo\\ Homework/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		84517C8F5D0B4F4C80A248F6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BBC3B2B351534101B0CF72D6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/eduardo/Documents/Google\\ Drive/Università/Informatica\\ Triennale/Terzo\\ Anno/Computer\\ Graphics/Primo\\ Homework/build -f /Users/eduardo/Documents/Google\\ Drive/Università/Informatica\\ Triennale/Terzo\\ Anno/Computer\\ Graphics/Primo\\ Homework/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		C5232CAE30A3496A9239F89F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E15D8AEA4CE429A96E3AD95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F09809897F340E2913932CF /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_init.m */,
+				D4DE550F76684005BFB5F7F3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_joystick.m */,
+				9151AF6302BA4C169F617763 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_monitor.m */,
+				7C28E4E5818F43C1B9D3CC47 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_time.c */,
+				4D50A42E45F7430CBE1C8774 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/cocoa_window.m */,
+				A93C3686A6404264B959DE5B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/context.c */,
+				73854676AA5D451C91A3A7F3 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/egl_context.c */,
+				A223A2A8FB3B42B993D6A0E9 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/init.c */,
+				B9313B4CE15F4A7BBA8E5974 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/input.c */,
+				5F09CACA99D84F6C9B16D7DD /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/monitor.c */,
+				AE1855A11EF54791ACF8E31B /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/nsgl_context.m */,
+				0545159FE0C3458D8C70ABC6 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/osmesa_context.c */,
+				636161895EA24E379CD541BB /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/posix_thread.c */,
+				8C25568F7F0247AAB42CC3C7 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/vulkan.c */,
+				C40391E36A47408F8B1A4496 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705425C8364141BA9CB96DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294C5DB81369447AB1438AB9 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_grade/yocto_grade.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA58AA0E7B204D32AA4F6EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6F1E4120384392B0165FCA /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glad/glad.c */,
+				698C7630027A488F8B59D508 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui.cpp */,
+				B1946F06169A4BBABBAC2484 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_draw.cpp */,
+				A8B2F5BF68AA4887A7070204 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_impl_glfw.cpp */,
+				963C6F992A814C4AABEB01AA /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_impl_opengl3.cpp */,
+				64509F81AAE04070A6FAA20A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/imgui/imgui_widgets.cpp */,
+				94479EE75F164CE9BE8D917F /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/yocto_gui.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44B630C781E4D92BCF66C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA47A2901324FA0AF40D193 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimgigrades/yimgigrades.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79F9D5A8F094C1D813CBB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C866FAB3E34F329A2CDD90 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/cgltf.cpp */,
+				E738FACB3ED946478D028E11 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/stb_image.cpp */,
+				937F616F6A944CBB93934E32 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/ext/tinyexr.cpp */,
+				024455CE9D1A413CBF29366A /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_image.cpp */,
+				8928ABDADF4748AF8D770F13 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_sceneio.cpp */,
+				2D2DEBFCC9B04C7D9594F743 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_shape.cpp */,
+				5DE45A53EC4C443FB3FAB8FD /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto/yocto_trace.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5FDB1F9AF4F4FC3BF930596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F228E3F604763A70E73A1 /* /Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/apps/yimggrade/yimggrade.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00AB2E51E0F140D9BE9014FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF0DFA92B384C698FF39848 /* ZERO_CHECK */;
+			targetProxy = 0F4E18DCE8C64B88A4FB53E5 /* PBXContainerItemProxy */;
+		};
+		268AD99ADC6545AA9CCD1ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B22763398504FF9BA5D385D /* yocto_grade */;
+			targetProxy = 9A983808D1114CEC835920B5 /* PBXContainerItemProxy */;
+		};
+		2B7E6DEBD3B54AB487C63B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689EDD6EFFFD4F22A615FBE8 /* yocto */;
+			targetProxy = B520695CE03140A19EED0C90 /* PBXContainerItemProxy */;
+		};
+		31C1493B38734C24950CCD25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF0DFA92B384C698FF39848 /* ZERO_CHECK */;
+			targetProxy = C74C517CC11746959B738C65 /* PBXContainerItemProxy */;
+		};
+		38F489B2CC384B149A089EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF0DFA92B384C698FF39848 /* ZERO_CHECK */;
+			targetProxy = 6FDADCAC70754C57AF03320E /* PBXContainerItemProxy */;
+		};
+		41D3D13A51534893A232D53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF0DFA92B384C698FF39848 /* ZERO_CHECK */;
+			targetProxy = 5CAECC76A7134F0E97312971 /* PBXContainerItemProxy */;
+		};
+		4A2E90E2CABB4B54B9194039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C1F715978B4FBDBCDC46F1 /* yimgigrades */;
+			targetProxy = 89D81DD4C7944505B421D9F8 /* PBXContainerItemProxy */;
+		};
+		65F28833F6A84DFB9F313ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B22763398504FF9BA5D385D /* yocto_grade */;
+			targetProxy = 6485D530F2664871BD99C6CB /* PBXContainerItemProxy */;
+		};
+		68722E3612314C2B9D9C9082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689EDD6EFFFD4F22A615FBE8 /* yocto */;
+			targetProxy = 294CB5593307483892477067 /* PBXContainerItemProxy */;
+		};
+		879457D0CFEC4623B34EC8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E51FC0BC265D461689248F93 /* yocto_gui */;
+			targetProxy = E91F4E82457E488584B44996 /* PBXContainerItemProxy */;
+		};
+		95BE112D09284BBE89BA17F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33503F6EA39462FB976D174 /* yimggrade */;
+			targetProxy = 4876CD6245A94D5AB9362A1B /* PBXContainerItemProxy */;
+		};
+		A52B3D6B5296486C9131BA4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8D2F7269B7F48E282E51ECF /* glfw */;
+			targetProxy = 3952178A49D442EF87211257 /* PBXContainerItemProxy */;
+		};
+		AE41A4EB13EC4191B8422273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8D2F7269B7F48E282E51ECF /* glfw */;
+			targetProxy = 58D03DDFA4B34192B1D9F182 /* PBXContainerItemProxy */;
+		};
+		C0C6764FE17E49DC8E13F0F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E51FC0BC265D461689248F93 /* yocto_gui */;
+			targetProxy = 0858459FEC15474DA451DA5D /* PBXContainerItemProxy */;
+		};
+		C5215B706C6446A3ABE12D4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689EDD6EFFFD4F22A615FBE8 /* yocto */;
+			targetProxy = 3435360A46484F08B0949509 /* PBXContainerItemProxy */;
+		};
+		C85397171B724A2E9D3520A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF0DFA92B384C698FF39848 /* ZERO_CHECK */;
+			targetProxy = CE4435443F5E4324B3C05C0C /* PBXContainerItemProxy */;
+		};
+		D7B8EF2BEEA641B1B022FCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF0DFA92B384C698FF39848 /* ZERO_CHECK */;
+			targetProxy = 2BD40723DAFD46EC9DE4BACC /* PBXContainerItemProxy */;
+		};
+		DA4AE06898F44775B367439B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B22763398504FF9BA5D385D /* yocto_grade */;
+			targetProxy = 9581F559194845E7AE08F7F2 /* PBXContainerItemProxy */;
+		};
+		E3B5996D522B44FDAC078CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689EDD6EFFFD4F22A615FBE8 /* yocto */;
+			targetProxy = 1CD189BF5D7D4E0784E36480 /* PBXContainerItemProxy */;
+		};
+		E4E17B7DD96D4B82835E4F48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8D2F7269B7F48E282E51ECF /* glfw */;
+			targetProxy = 802520B8CBD9488E9F0E8962 /* PBXContainerItemProxy */;
+		};
+		ED0F0AD81BBC49B0AFBB97B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF0DFA92B384C698FF39848 /* ZERO_CHECK */;
+			targetProxy = DE21F8A71EB44CA49298B9A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00BA62FDC1BE4A53B747CAF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,YOCTO_OPENGL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0411682DD72C40A3804D3A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0F10B8E397D2465F8C525D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1696421396124A6782E118DD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel/libyocto.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel/libyocto_grade.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel/libyocto.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yimggrade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/apps/yimggrade";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		18C7E9CD88F94DB09BBF9C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug/libyocto.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug/libyocto_grade.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug/libyocto.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yimggrade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/apps/yimggrade";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1C09CFC6F7B342C29FF1E5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release/libyocto.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release/libyocto_gui.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release/libyocto_grade.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework OpenGL \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release/libyocto.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yimgigrades;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/apps/yimgigrades";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1D04D21FC9344E288DA1CD25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/build";
+			};
+			name = Debug;
+		};
+		216B57B9FFE246CEB023ED2A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,YOCTO_OPENGL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		21B52A5D58514C88AABEED64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IMGUI_IMPL_OPENGL_LOADER_GLAD,YOCTO_OPENGL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/.\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -Wall  ";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto_gui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2B6247C379F34A45A4A56B6C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IMGUI_IMPL_OPENGL_LOADER_GLAD,YOCTO_OPENGL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/.\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -Wall  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto_gui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		307571C9824540EA91BD2A45 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		358CBF28AB6145BBA789020E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo/libyocto.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo/libyocto_gui.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo/libyocto_grade.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework OpenGL \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo/libyocto.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yimgigrades;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/apps/yimgigrades";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		39D5181F1DDC423E8564E141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,YOCTO_OPENGL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3C5CAADD1B7E4068A10BB383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IMGUI_IMPL_OPENGL_LOADER_GLAD,YOCTO_OPENGL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/.\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto_gui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4182C2490AFA46A2A16BDF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		475696E92DAB4B35B13CD140 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel/libyocto.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel/libyocto_gui.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel/libyocto_grade.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework OpenGL \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel/libyocto.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yimgigrades;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/apps/yimgigrades";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4DAC40BDF64A4AF3B6333BBE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo/libyocto.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo/libyocto_grade.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo/libyocto.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yimggrade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/apps/yimggrade";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4F32374D87A24E8593FB1BE9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5C5BB4038994452AB5818A56 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto_grade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_grade";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		61176DC266FF4F088B3DB850 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6230A71149414FE893219357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto_grade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_grade";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6688475E0BC24E5987B6A8E0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto_grade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_grade";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		755B76DB36F1490AAAE6072E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7947BA5C3E3E448981C3A7E0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,YOCTO_OPENGL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/src\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7C8E0903121C4C2A88AD795D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/build";
+			};
+			name = MinSizeRel;
+		};
+		8D6BAD5589244C40A7E99438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug/libyocto.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug/libyocto_gui.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug/libyocto_grade.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug/libglfw3.a\" -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo -framework OpenGL \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug/libyocto.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yimgigrades;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/apps/yimgigrades";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A0A635F728CE484A9BD41C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto_grade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_grade";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AD608849627340F1AD06F7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B124F1B095F548F5932C7AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BD8E46FFC3DA4BBDBCE631A5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D1E6B50EEB5A4B24B60AD74B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",IMGUI_IMPL_OPENGL_LOADER_GLAD,YOCTO_OPENGL);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/.\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"","\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs/yocto_gui/ext/glfw/include\"");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -Wall  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto_gui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto_gui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D802045495E049B3B1133EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/libs\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release/libyocto.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release/libyocto_grade.a\" \"/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Release/libyocto.a\"";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yimggrade;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/apps/yimggrade";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		E03B1F2CE24740CB89C3A5F3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F6B81207FFA14391988A7D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/build";
+			};
+			name = Release;
+		};
+		FB2D9C0AFD2044D99B26378C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/bin/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -Wall '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yocto;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/libs/yocto";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FCDD5CDE863B4D2AA5966D15 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/eduardo/Documents/Google Drive/Università/Informatica Triennale/Terzo Anno/Computer Graphics/Primo Homework/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		336C3C9B91484163BE909FAC /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D5181F1DDC423E8564E141 /* Debug */,
+				00BA62FDC1BE4A53B747CAF7 /* Release */,
+				216B57B9FFE246CEB023ED2A /* MinSizeRel */,
+				7947BA5C3E3E448981C3A7E0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3C3214B707354FB89B5FFE62 /* Build configuration list for PBXNativeTarget "yocto_grade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6230A71149414FE893219357 /* Debug */,
+				A0A635F728CE484A9BD41C74 /* Release */,
+				5C5BB4038994452AB5818A56 /* MinSizeRel */,
+				6688475E0BC24E5987B6A8E0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3C9E7343D1E74998810B7088 /* Build configuration list for PBXNativeTarget "yimgigrades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6BAD5589244C40A7E99438 /* Debug */,
+				1C09CFC6F7B342C29FF1E5DC /* Release */,
+				475696E92DAB4B35B13CD140 /* MinSizeRel */,
+				358CBF28AB6145BBA789020E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4CCA7CBF815B4DC0BB7D13B0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD608849627340F1AD06F7CF /* Debug */,
+				B124F1B095F548F5932C7AEF /* Release */,
+				307571C9824540EA91BD2A45 /* MinSizeRel */,
+				61176DC266FF4F088B3DB850 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6CC3611F35B246979AFD9935 /* Build configuration list for PBXNativeTarget "yocto_gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B52A5D58514C88AABEED64 /* Debug */,
+				3C5CAADD1B7E4068A10BB383 /* Release */,
+				D1E6B50EEB5A4B24B60AD74B /* MinSizeRel */,
+				2B6247C379F34A45A4A56B6C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		74F8270CEE3846C1AD9D0CF0 /* Build configuration list for PBXProject "yocto_grade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D04D21FC9344E288DA1CD25 /* Debug */,
+				F6B81207FFA14391988A7D51 /* Release */,
+				7C8E0903121C4C2A88AD795D /* MinSizeRel */,
+				FCDD5CDE863B4D2AA5966D15 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9710E1A2D4564314AA023E9E /* Build configuration list for PBXNativeTarget "yimggrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C7E9CD88F94DB09BBF9C38 /* Debug */,
+				D802045495E049B3B1133EDB /* Release */,
+				1696421396124A6782E118DD /* MinSizeRel */,
+				4DAC40BDF64A4AF3B6333BBE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D3BFA1DE74504B8BA1350997 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F10B8E397D2465F8C525D94 /* Debug */,
+				0411682DD72C40A3804D3A51 /* Release */,
+				755B76DB36F1490AAAE6072E /* MinSizeRel */,
+				4F32374D87A24E8593FB1BE9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DBCEA6989B8D4138ADB19060 /* Build configuration list for PBXNativeTarget "yocto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2D9C0AFD2044D99B26378C /* Debug */,
+				4182C2490AFA46A2A16BDF5A /* Release */,
+				E03B1F2CE24740CB89C3A5F3 /* MinSizeRel */,
+				BD8E46FFC3DA4BBDBCE631A5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8462C1DC62B40A1A40FFFC9 /* Project object */;
+}
