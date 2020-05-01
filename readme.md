@@ -100,5 +100,7 @@ consiglia di cercare su [ShaderToy](https://www.shadertoy.com) o
 # Filtro implementato da me
 
 Il filtro che ho scelto di implementare per questo homework è in stile "Low poly".
-Trovate il codice in `yocto_grade.cpp` e un esempio di seguito:
+Trovate il codice in `yocto_grade.cpp` e tre esempi di seguito:
 ![lowpoly](https://github.com/edu-rinaldi/Homework1-Computer-Graphics/blob/master/out/my_filter.jpg)
+![lowpoly](https://github.com/edu-rinaldi/Homework1-Computer-Graphics/blob/master/out/Low_poly_greg_zaal_artist_workshop.jpg)
+![lowpoly](https://github.com/edu-rinaldi/Homework1-Computer-Graphics/blob/master/out/Low_poly_wolf.jpg)
